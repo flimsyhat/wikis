@@ -1,0 +1,9 @@
+created: 20160110185233952
+modified: 20160110185435065
+tags: bash
+title: Move files up one directory
+type: text/vnd.tiddlywiki
+
+```
+mv * .[^.]* ..
+```

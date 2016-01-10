@@ -1,0 +1,16 @@
+created: 20160110184439814
+modified: 20160110185417681
+tags: bash
+title: Check/kill port
+type: text/vnd.tiddlywiki
+
+To check what is running on a port, for instance port 8080:
+
+```
+sudo netstat -lpn | grep :8080
+```
+The process id is found at the end. To kill the process:
+
+```
+kill [process id]
+```
