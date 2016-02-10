@@ -1,0 +1,34 @@
+created: 20160210212724815
+modified: 20160210214254399
+tags: GnuPG
+title: Verify signed email with GnuPG
+type: text/vnd.tiddlywiki
+
+Save the email into a plaintext file and remove any spaces/linebreaks from the signature.
+
+You then need the public key. This can either be copied into a plaintext file (with a .sig extension) or imported from a key server.
+
+To import from a text file;
+
+```
+gpg --import <key.asc>
+```
+
+To add from a server;
+
+```
+gpg --recv-keys <Key ID>
+```
+
+To confirm that the key has been added, the following returns a list of keys available to gpg (the ''keyring'').
+
+```
+gpg --list-keys
+```
+
+Finally, to verify a file;
+
+```
+gpg <key file> --verify <signed file>
+```
+
