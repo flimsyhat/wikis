@@ -1,15 +1,3 @@
-cd current
-ls
-cd repo
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd app-root
-ls
 cd data
 ls
 cd logs
@@ -498,3 +486,15 @@ ls
 cd app-root/data
 nano tiddlywiki.info
 exit
+cd app-root
+cd data
+ls
+git push
+git remotes
+git remote
+git remote -v
+git add .
+git commit "modified file structure"
+git commit -m "modified file structure"
+git push
+ls
