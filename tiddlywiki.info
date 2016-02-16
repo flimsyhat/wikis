@@ -1,0 +1,20 @@
+{
+	"description": "Basic client-server edition",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem",
+		"tiddlywiki/highlight"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+       "includeWikis": [
+		"./biophilia",
+		"./code_snippets"
+	],
+       "config": {
+		"retain-original-tiddler-path": true
+	}
+}
+
