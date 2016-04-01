@@ -1,0 +1,11 @@
+created: 20160304020810116
+creator: sean
+modified: 20160304021559047
+modifier: sean
+tags: biases
+title: Conjunction fallacy
+type: text/vnd.tiddlywiki
+
+The //conjunction fallacy// is rating the probability P(A,B) higher than the probability P(B) even though it is a theorem that P(A,B) &#8804; P(B).
+
+Adding detail can make a scenario //sound more plausible//, even though the event necessarily //becomes less probable//.

@@ -1,0 +1,13 @@
+created: 20160321010722464
+creator: sean
+modified: 20160321010920216
+modifier: sean
+tags: bash
+title: View block devices
+type: text/vnd.tiddlywiki
+
+Using lsblk (list block):
+
+```
+lsblk -o name,mountpoint,label,size,uuid
+```

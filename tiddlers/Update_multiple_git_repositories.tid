@@ -1,0 +1,17 @@
+created: 20160317153812930
+creator: sean
+modified: 20160317154239799
+modifier: sean
+tags: bash git
+title: Update multiple git repositories
+type: text/vnd.tiddlywiki
+
+To update (pull) for all subdirectories:
+
+```
+find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;
+```
+From: [[http://stackoverflow.com/questions/3497123/run-git-pull-over-all-subdirectories]]
+
+Alternatively, use gitup:
+[[https://github.com/earwig/git-repo-updater]]

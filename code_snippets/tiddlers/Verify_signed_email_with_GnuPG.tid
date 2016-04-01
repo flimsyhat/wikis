@@ -1,5 +1,7 @@
 created: 20160210212724815
-modified: 20160210214254399
+creator: sean
+modified: 20160225163456103
+modifier: sean
 tags: GnuPG
 title: Verify signed email with GnuPG
 type: text/vnd.tiddlywiki
@@ -31,4 +33,4 @@ Finally, to verify a file;
 ```
 gpg <key file> --verify <signed file>
 ```
-
+//Note//: If using a key imported from a key server, skip the ''key file'' field --- gpg will automatically search through the keyring.
