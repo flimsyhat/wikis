@@ -1,0 +1,15 @@
+created: 20160401173840905
+creator: sean
+modified: 20160401174057345
+modifier: sean
+tags: git
+title: HTTP authentication for Github
+type: text/vnd.tiddlywiki
+
+When pushing to Github:
+
+```
+git push https://you:password@github.com/you/example.git
+```
+
+Circumvents need for ssh credentials.  
